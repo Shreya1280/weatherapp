@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search-bar">
+        <input type="text" placeholder="Enter city name.." spellcheck="false" />
+
+        <div class="search-btn">
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+        </div>
+      </div>
+
+      <div class="weather">
+        <img src="mist.png" alt="" srcset="" class="weather-ico" />
+
+        <div class="text">
+          <h1 class="temp">0<sup>o</sup>c</h1>
+          <h1 class="city">city name</h1>
+        </div>
+
+        <div class="hu-wi">
+          <h4>humidity</h4>
+          <h4 class="humidity">0%</h4>
+
+          <h4>wind</h4>
+          <h4 class="wind">0 km/h</h4>
+
+          <h4 class="text-weather"></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
